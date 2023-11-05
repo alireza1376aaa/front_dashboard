@@ -1,0 +1,37 @@
+@media  screen and (max-width: 768px) {
+    #navbar{
+        top: 0;
+        position: static;
+        height: 100%;
+        
+    }
+    .show.responsive_dropdown{
+        position: static;
+        height: 100%;
+        width: 100%;
+    }
+    .dropdown.respons {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .active a{
+        border-bottom: 3px solid #0a57cac8;
+        padding: 0px 0px
+    }
+    #Uaer_main_menue,#Belt_dropdown{
+        width: 100%;
+  }
+  .btn-size{
+    padding: 0.25rem 0.5rem;
+    font-size: .875rem;
+    border-radius: 0.2rem;
+  }
+  .w_cost{
+    width: 95% !important;
+}
+.fs-m{
+    font-size: 13px;
+}
+}

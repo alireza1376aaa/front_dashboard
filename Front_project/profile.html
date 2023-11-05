@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/bootstrap.min.js"></script>
+    <title>Profile</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <nav class="row nav col-12 bg-white " id="navbar">
+
+
+                <div class="nav_logo col-6 col-md-2 d-flex justify-content-center">
+                    <img src="img/logo.png" alt="" width="60px">
+                </div>
+
+                <div class="dashboard_link justify-content-center justify-content-md-between col-6 col-md-3 h-100 d-flex align-items-center ">
+                    <h5 class="my-0"><a href="dashboard.html">Dashboard</a></h5>
+                </div>
+
+                <div class="navbar news col-12 col-md-3  justify-content-center">
+                    <div class="dropdown respons">
+                        <button class="btn dropdown-toggle d-flex border border-success" type="button" id="Belt_dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill text-primary" viewBox="0 0 16 16">
+                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                            </svg>
+                            0
+                        </button>
+                        <ul class="dropdown-menu news_dropdown w-100 responsive_dropdown" aria-labelledby="Belt_dropdown">
+                          <li><a class="dropdown-item border-bottom border-2 my-2" href="#">
+                            <button type="button" class="btn btn-success w-100" >همه را خواندم</button>
+                          </a></li>
+                        </ul>
+                      </div>
+                 </div>
+
+
+                <div class="navbar menue col-12 col-md-4 justify-content-center">
+                    <div class="dropdown respons">
+                        <button class="btn dropdown-toggle" type="button" id="Uaer_main_menue" data-bs-toggle="dropdown" aria-expanded="false">
+                          Test User
+                        </button>
+                        <ul class="dropdown-menu nav_dropdoun text-center responsive_dropdown" aria-labelledby="Uaer_main_menue">
+                          <p class="text-secondary text-center fw-light">Manage Account</p>
+                          <li><a class="dropdown-item border-bottom border-2 py-2 active_drop" href="#">Profile</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="#">Log Out</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="users.html">کاربران</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="universities.html">دانشگاه</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="majors.html">رشته</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="entrances.html">ورودی</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="grades.html">مقطع</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="student.html">دانشجویان</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="tuitions.html">شهریه</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="task.html">اعلان</a></li>
+                          <li><a class="dropdown-item py-2 " href="marketing.html">بازاریاب</a></li>
+                          <li><a class="dropdown-item py-2" href="#">لاگ سیستم</a></li>
+                          <li><a class="dropdown-item py-2" href="transactions.html">واریز حقوق</a></li>
+                        </ul>
+                      </div>
+                 </div>
+
+            </nav>
+
+            <div class="row col-m d-12 bg-white border second_nav d-md-flex d-none align-content-center">
+                <div>
+                    <h2 class="ps-5 ms-5">Profile</h2>
+                </div>
+            </div>
+
+        </div>
+    </div>  
+
+    <section class="container-fluid d-flex justify-content-center align-items-center mt-5">
+        <div class="profile_section rounded-3 row w-100" >
+            <div class="profile_container col-md-12 row p-4 justify-content-center mb-5">
+                <div class="col-md-4">
+                    <h4>Profile Information</h4>
+                    <p>Update your acount's profile Information and email address</p>
+                </div> 
+
+                <div class="col-md-6 rounded-3 bg-white p-4 ">
+                    <form>
+                        <div class="mb-3 w-75">
+                          <label for="InputName" class="form-label">Name</label>
+                          <input type="text" class="form-control" id="InputName" aria-describedby="namelHelp">
+                        </div>
+                        <div class="mb-3 w-75">
+                          <label for="InputEmail" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="InputEmail">
+                        </div>
+                        <button type="submit" class=" btn btn-dark float-end">Save</button>
+                      </form>
+
+                </div>
+            </div>
+            <hr>
+            <div class="profile_container col-md-12 row p-4 justify-content-center mb-5">
+                <div class="col-md-4">
+                    <h4>Update Password</h4>
+                    <p>Ensure your account is using a long , random password to stay secure.</p>
+                </div> 
+
+                <div class="col-md-6 rounded-3 bg-white p-4 ">
+                    <form>
+                        <div class="mb-3 w-75">
+                          <label for="InputCurrent_Password" class="form-label">Current Password</label>
+                          <input type="password" class="form-control" id="InputCurrent_Password" >
+                        </div>
+                        <div class="mb-3 w-75">
+                          <label for="Inputnew_Password" class="form-label">New Password</label>
+                          <input type="password" class="form-control" id="Inputnew_Password">
+                        </div>
+                        <div class="mb-3 w-75">
+                            <label for="InputConfirm_Password" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="InputConfirm_Password">
+                          </div>
+                        <button type="submit" class=" btn btn-dark float-end">Save</button>
+                      </form>
+
+                </div>
+            </div>
+            <hr>
+            <div class="profile_container col-md-12 row p-4 justify-content-center mb-5">
+                <div class="col-md-4">
+                    <h4>Two Factor Authentication</h4>
+                    <p>Add additional security to your account using two factor authentication.</p>
+                </div> 
+
+                <div class="col-md-6 rounded-3 bg-white p-4 ">
+                   <h4 class="mb-3">You have not enabled two factor authentication.</h4>
+                   <p>When two factor authentication is enabled, you will be prompted 
+                    for a secure, random token during authentication. You may retrieve 
+                    this token from your phone's Google Authenticator application.</p>
+                    <button type="button" class="btn btn-dark">ENABLE</button>
+                </div>
+            </div>
+            <hr>
+            <div class="profile_container col-md-12 row p-4 justify-content-center mb-5">
+                <div class="col-md-4">
+                    <h4>Browser Sessions</h4>
+                    <p>Manage and log out your active sessions on other browsers and devices.</p>
+                </div> 
+
+                <div class="col-md-6 rounded-3 bg-white p-4 ">
+                   <p>If necessary, you may log out of all of your other browser sessions across
+                     all of your devices. Some of your recent sessions are listed below; however,
+                      this list may not be exhaustive. If you feel your account has been compromised,
+                       you should also update your password.</p>
+                    <div class="d-flex mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-display" viewBox="0 0 16 16">
+                            <path d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4c0 .667.083 1.167.25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75c.167-.333.25-.833.25-1.5H2s-2 0-2-2V4zm1.398-.855a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145z"/>
+                          </svg>
+                        <div class="mx-4">
+                            <p class="m-0">Windows - Chrome</p>
+                            <small>80.210.149.46,</small><small class="small_tag"> This device</small>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+                            <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                          </svg>
+                        <div class="mx-4">
+                            <p class="m-0">AndroidOS - Chrome </p>
+                            <small>93.114.31.254,</small><small class="">Last active 7 hours ago</small>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-dark">LOG OUT OTHER BROWSER SESSIONS</button>
+                </div>
+            </div>
+            <hr>
+            <div class="profile_container col-md-12 row p-4 justify-content-center mb-5">
+                <div class="col-md-4">
+                    <h4>Delete Account</h4>
+                    <p>Permanently delete your account.</p>
+                </div> 
+
+                <div class="col-md-6 rounded-3 bg-white p-4 ">
+                   <p>Once your account is deleted, all of its resources and data will be permanently deleted.
+                    Before deleting your account. please download any data or informations that you whish to
+                    retain.
+                   </p>
+                    <button type="button" class="btn btn-danger">DELETE ACCOUNT</button>
+
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    
+   
+</body>
+</html>

@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Parastoo';
+    src: url('../font/Parastoo.eot') format('eot');
+    src:   url('../font/Parastoo.ttf') format('ttf');
+    src:   url('../font/Parastoo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #f3f4f6;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+nav{
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.active a{
+    border-bottom: 3px solid #0a57cac8;
+    padding: 24px 8px
+}
+#Belt_dropdown{
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+}
+#Uaer_main_menue{
+    width: 200px;
+}
+.news_dropdown{
+    width: 14vw;
+    left: -64px !important;
+    font-family: Parastoo;
+
+}
+.nav_dropdoun{
+    width: 17vw;
+    font-family: Parastoo;
+
+}
+.dropdown-menu[data-bs-popper] {
+    top: 9vh !important;
+    left: -36px
+}
+
+.nav_dropdoun >li:hover a{
+   color: #0a58ca;
+
+}
+.second_nav{
+    height: 11vh;
+}
+
+.header {
+    height: 9vh;
+    background-color: white;
+}
+.dashboard_section {
+    width: 80%;
+    box-shadow: 5px 8px 20px 0px rgb(115, 115, 115);
+    background-color: #f8f9fb;
+    transition: 2s;
+    
+}
+.dashboard_section:hover{
+    box-shadow: -8px 13px 20px 0px rgb(115, 115, 115)
+}
+
+section{
+    height: 77%;
+}
+.container_dashboard p{
+    font-size: 14px !important;
+}
+.active_drop{
+    color: rgb(17, 0, 167);
+    background-color: rgba(128, 166, 255, 0.272);
+  
+}
+.small_tag{
+color: #10ca0a;
+}
+.profile_section p{
+    font-size: 15px !important;
+}
+.main_section{
+    font-family:'Parastoo'!important;
+}
+.w-85{
+    width: 85% !important;
+}
+.fish img{
+    transition: 1s;
+}
+.fish:hover img{
+    transform: scale(8);
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/bootstrap.min.js"></script>
+    <title>Student</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <nav class="row nav col-12 bg-white " id="navbar">
+
+
+                <div class="nav_logo col-6 col-md-2 d-flex justify-content-center">
+                    <img src="img/logo.png" alt="" width="60px">
+                </div>
+
+                <div class="dashboard_link justify-content-center justify-content-md-between col-6 col-md-3 h-100 d-flex align-items-center ">
+                    <h5 class="my-0"><a href="dashboard.html">Dashboard</a></h5>
+                </div>
+
+                <div class="navbar news col-12 col-md-3  justify-content-center">
+                    <div class="dropdown respons">
+                        <button class="btn dropdown-toggle d-flex border border-success" type="button" id="Belt_dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill text-primary" viewBox="0 0 16 16">
+                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                            </svg>
+                            0
+                        </button>
+                        <ul class="dropdown-menu news_dropdown w-100 responsive_dropdown" aria-labelledby="Belt_dropdown">
+                          <li><a class="dropdown-item border-bottom border-2 my-2" href="#">
+                            <button type="button" class="btn btn-success w-100" >همه را خواندم</button>
+                          </a></li>
+                        </ul>
+                      </div>
+                 </div>
+
+
+                <div class="navbar menue col-12 col-md-4 justify-content-center">
+                    <div class="dropdown respons">
+                        <button class="btn dropdown-toggle" type="button" id="Uaer_main_menue" data-bs-toggle="dropdown" aria-expanded="false">
+                          Test User
+                        </button>
+                        <ul class="dropdown-menu nav_dropdoun text-center responsive_dropdown" aria-labelledby="Uaer_main_menue">
+                          <p class="text-secondary text-center fw-light">Manage Account</p>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="profile.html">Profile</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="#">Log Out</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2 " href="users.html">کاربران</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2 " href="universities.html">دانشگاه</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2 " href="majors.html">رشته</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2 " href="entrances.html">ورودی</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2 " href="grades.html">مقطع</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2 active_drop" href="#">دانشجویان</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="tuitions.html">شهریه</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2 " href="task.html">اعلان</a></li>
+                          <li><a class="dropdown-item py-2 " href="marketing.html">بازاریاب</a></li>
+                          <li><a class="dropdown-item py-2" href="#">لاگ سیستم</a></li>
+                          <li><a class="dropdown-item py-2" href="transactions.html">واریز حقوق</a></li>
+                        </ul>
+                      </div>
+                 </div>
+
+            </nav>
+
+        </div>
+    </div>  
+    
+    <section class="container-fluid d-flex justify-content-center align-items-center mt-5">
+        <div class="main_section w-85 rounded-3 bg-white p-3 w_cost">
+            <div class="main_header d-sm-flex justify-content-between d-block text-center">
+                <h2>سامانه مدیریت دانشگاه ها</h2>
+                <button type="button" class="btn btn-outline-success btn-size">ایجاد دانشجو جدید</button>
+            </div>
+                <div class="main_container row p-4 table-responsive " >
+                    <table class="table table-bordered text-center table-striped align-middle fs-m">
+                        <thead>
+                          <tr>
+                            <th class="col-3" scope="col">عملیات</th>
+                            <th class="col-2" scope="col">مبلغ پرداختی</th>
+                            <th class="col-1" scope="col">وضعیت </th>
+                            <th class="col-1" scope="col">شماره همراه </th>
+                            <th class="col-1" scope="col">ورودی</th>
+                            <th class="col-2" scope="col">نام</th>
+                            <th class="col-2" scope="col">کد دانشجویی</th>
+                            <th class="col-1" scope="col">شناسه</th>
+
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row ">
+                                <button type="button" class="btn btn-danger my-1 btn-size">حذف</button>
+                                <button type="button" class="btn btn-outline-warning my-1 btn-size ">ویرایش</button>
+                                <button type="button" class="btn btn-outline-info my-1 btn-size">نمایش</button>
+                            </th>
+                            <td> 40000000</td>
+                            <td> فعال </td>
+                            <td>0988776778</td>
+                            <td> 012</td>
+                            <td>محمد امیر احمدی</td>
+                            <td>0988776778</td>
+                            <td>4</td>
+
+                          </tr>
+                          <tr>
+                            <th scope="row ">
+                                <button type="button" class="btn btn-danger my-1 btn-size">حذف</button>
+                                <button type="button" class="btn btn-outline-warning my-1 btn-size ">ویرایش</button>
+                                <button type="button" class="btn btn-outline-info my-1 btn-size">نمایش</button>
+                            </th>
+                            <td> 34000000</td>
+                            <td> فعال </td>
+                            <td>0988423778</td>
+                            <td> 011</td>
+                            <td>عرفان اعظمی </td>
+                            <td>0222376778</td>
+                            <td>3</td>
+
+                          </tr>
+                          <tr>
+                            <th scope="row ">
+                                <button type="button" class="btn btn-danger my-1 btn-size">حذف</button>
+                                <button type="button" class="btn btn-outline-warning my-1 btn-size ">ویرایش</button>
+                                <button type="button" class="btn btn-outline-info my-1 btn-size">نمایش</button>
+                            </th>
+                            <td> 32000000</td>
+                            <td> فعال </td>
+                            <td>0943576778</td>
+                            <td> 012</td>
+                            <td>علی افشان </td>
+                            <td>0123576778</td>
+                            <td>2</td>
+
+                          </tr>
+                          <tr>
+                            <th scope="row ">
+                                <button type="button" class="btn btn-danger my-1 btn-size">حذف</button>
+                                <button type="button" class="btn btn-outline-warning my-1 btn-size ">ویرایش</button>
+                                <button type="button" class="btn btn-outline-info my-1 btn-size">نمایش</button>
+                            </th>
+                            <td> 32000000</td>
+                            <td> فعال </td>
+                            <td>0992776778</td>
+                            <td> 011</td>
+                            <td>علی هشترودی </td>
+                            <td>0012701778</td>
+                            <td>1</td>
+
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

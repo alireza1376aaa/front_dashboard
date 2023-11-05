@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/bootstrap.min.js"></script>
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <nav class="row nav col-12 bg-white " id="navbar">
+
+
+                <div class="nav_logo col-6 col-md-2 d-flex justify-content-center">
+                    <img src="img/logo.png" alt="" width="60px">
+                </div>
+
+                <div class="dashboard_link justify-content-center justify-content-md-between col-6 col-md-3 h-100 d-flex align-items-center active">
+                    <h5 class="my-0"><a href="#">Dashboard</a></h5>
+                </div>
+
+                <div class="navbar news col-12 col-md-3  justify-content-center">
+                    <div class="dropdown respons">
+                        <button class="btn dropdown-toggle d-flex border border-success" type="button" id="Belt_dropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill text-primary" viewBox="0 0 16 16">
+                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                            </svg>
+                            0
+                        </button>
+                        <ul class="dropdown-menu news_dropdown w-100 responsive_dropdown" aria-labelledby="Belt_dropdown">
+                          <li><a class="dropdown-item border-bottom border-2 my-2" href="#">
+                            <button type="button" class="btn btn-success w-100" >همه را خواندم</button>
+                          </a></li>
+                        </ul>
+                      </div>
+                 </div>
+
+
+                <div class="navbar menue col-12 col-md-4 justify-content-center">
+                    <div class="dropdown respons">
+                        <button class="btn dropdown-toggle" type="button" id="Uaer_main_menue" data-bs-toggle="dropdown" aria-expanded="false">
+                          Test User
+                        </button><!-- Alirezaqumi -->
+                        <ul class="dropdown-menu nav_dropdoun text-center responsive_dropdown" aria-labelledby="Uaer_main_menue">
+                          <p class="text-secondary text-center fw-light">Manage Account</p>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="profile.html">Profile</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="#">Log Out</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="users.html">کاربران</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="universities.html">دانشگاه</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="majors.html">رشته</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="entrances.html">ورودی</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="grades.html">مقطع</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="student.html">دانشجویان</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="tuitions.html">شهریه</a></li>
+                          <li><a class="dropdown-item border-bottom border-2 py-2" href="task.html">اعلان</a></li>
+                          <li><a class="dropdown-item py-2 " href="marketing.html">بازاریاب</a></li>
+                          <li><a class="dropdown-item py-2" href="#">لاگ سیستم</a></li>
+                          <li><a class="dropdown-item py-2" href="transactions.html">واریز حقوق</a></li>
+                        </ul>
+                      </div>
+                 </div>
+
+            </nav>
+
+            <div class="row col-m d-12 bg-white border second_nav d-md-flex d-none align-content-center">
+                <div>
+                    <h2 class="ps-5 ms-5">Dashboard</h2>
+                </div>
+            </div>
+
+        </div>
+    </div>  
+    
+    <section class="container-fluid d-flex justify-content-center align-items-center mt-5">
+        <div class="dashboard_section rounded-3">
+            <div class="header"><span></span></div>
+            <div class="dashbord_container row p-4" >
+                <div class="col-md-6 col-12 dashbord_container_ithem mb-5">
+                    <div class="header_dashboard d-flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+                            <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+                          </svg>
+                        <h4 class="mx-3 fw-bold">Documentation</h4>
+                    </div>
+                    <div class="container_dashboard">
+                        <p >
+                            Laravel has wonderful documentation covering every aspect of the framework.
+                             Whether you're new to the framework or have previous experience, we recommend
+                              reading all of the documentation from beginning to end.
+                        </p>
+                        <a class="text-primary" href="">Explore the documentation →</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-12 dashbord_container_ithem mb-5">
+                    <div class="header_dashboard d-flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-camera-video" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M0 5a2 2 0 0 1 2-2h7.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 4.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 13H2a2 2 0 0 1-2-2V5zm11.5 5.175 3.5 1.556V4.269l-3.5 1.556v4.35zM2 4a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"/>
+                        </svg>
+                        <h4 class="mx-3 fw-bold">Laracasts</h4>
+                    </div>
+                    <div class="container_dashboard">
+                        <p>
+                            Laracasts offers thousands of video tutorials on Laravel, PHP, 
+                            an hös development. Check them out, see for yourself, and massively le skills
+                             in the process.Laravel has wonderful documentation .
+                        </p>
+                        <a class="text-primary" href="">Start watching Laracasts →</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-12 dashbord_container_ithem mb-5">
+                    <div class="header_dashboard d-flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-card-image" viewBox="0 0 16 16">
+                            <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                            <path d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm13 1a.5.5 0 0 1 .5.5v6l-3.775-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12v.54A.505.505 0 0 1 1 12.5v-9a.5.5 0 0 1 .5-.5h13z"/>
+                        </svg>
+                        <h4 class="mx-3 fw-bold">Tailwind</h4>
+                    </div>
+                    <div class="container_dashboard">
+                        <p>
+                            Laravel Jetstream is built with Tailwind, an amazing utility
+                             first CSS framework that doesn't get in your way. You'll be amazed
+                              how easily you can build and maintain fresh, modern designs with this
+                               wonderful framework at your fingertips.
+                               <!-- Alirezaqumi -->
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-12 dashbord_container_ithem mb-5">
+                    <div class="header_dashboard d-flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+                            <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"/>
+                          </svg>
+                        <h4 class="mx-3 fw-bold">Authentication</h4>
+                    </div>
+                    <div class="container_dashboard">
+                        <p>
+                            Authentication and registration views are included with Laravel support for
+                             user email verification and resetting forgotten passv get started with what
+                              matters most: building your application.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
